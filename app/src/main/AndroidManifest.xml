@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cd17.connectteam">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ConnectTeam">
+        <activity android:name="com.cd17.connectteam.ProfileActivity" />
+        <activity android:name="com.cd17.connectteam.RoleActivity" />
+        <activity android:name="com.cd17.connectteam.DeptActivity" />
+        <activity android:name="com.cd17.connectteam.CityActivity" />
+        <activity android:name="com.cd17.connectteam.YoeActivity" />
+        <activity android:name="com.cd17.connectteam.DisplayActivity" />
+        <activity android:name="com.cd17.connectteam.UpdateActivity" />
+        <activity android:name="com.cd17.connectteam.MainActivity" />
+        <activity android:name="com.cd17.connectteam.LoginActivity" />
+        <activity android:name="com.cd17.connectteam.RegisterActivity" />
+        <activity android:name="com.cd17.connectteam.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

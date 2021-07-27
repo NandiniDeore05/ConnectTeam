@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_display"
+        android:icon="@drawable/ic_display"
+        android:title=""/>
+
+    <item android:id="@+id/nav_add"
+        android:icon="@drawable/ic_add"
+        android:title=""/>
+
+    <item android:id="@+id/nav_update"
+        android:icon="@drawable/ic_update"
+        android:title=""/>
+
+    <item android:id="@+id/nav_delete"
+        android:icon="@drawable/ic_delete"
+        android:title=""/>
+
+    <item android:id="@+id/nav_filter"
+        android:icon="@drawable/ic_filter"
+        android:title=""/>
+
+</menu>

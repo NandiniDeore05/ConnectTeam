@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ConnectTeam"
+        android:id="@+id/main_page_heading"
+        android:fontFamily="@font/gotham"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:text="REGISTER"
+        android:layout_below="@+id/main_page_heading"
+
+        android:layout_margin="32dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/calibri"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:text="LOGIN"
+        android:layout_below="@+id/register"
+
+        android:layout_margin="32dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/calibri"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginTop="100dp"/>
+
+</RelativeLayout>
